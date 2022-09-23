@@ -3,6 +3,7 @@
 
 ## Стартер использует
 - :white_check_mark: Nuxt 3
+- :white_check_mark: Pinia
 - :white_check_mark: EditorConfig
 - :white_check_mark: TypeScript
 - :white_check_mark: ESlint & prettier
