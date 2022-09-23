@@ -1,5 +1,13 @@
 # Nuxt 3 Starter LR
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+[Nuxt 3 документация](https://v3.nuxtjs.org)
+
+## Стартер использует
+- :white_check_mark: Nuxt 3
+- :white_check_mark: EditorConfig
+- :white_check_mark: TypeScript
+- :white_check_mark: ESlint & prettier
+- :white_check_mark: Vitest
+- :white_check_mark: Husky + LintStage + commitlint + commitizen
 
 ## Запуск
 Установка зависимостей:
