@@ -33,7 +33,7 @@
     "@nuxt/test-utils-edge": "^3.0.0-rc.12-27730995.2894a75",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
-    "cz-customizable": "^5.3.0",
+    "cz-customizable": "^7.0.0",
     "eslint": "^8.23.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
