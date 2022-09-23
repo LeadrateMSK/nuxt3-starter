@@ -3,8 +3,12 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './config/git/commitlint.js'",
-      "pre-commit": "npm run lint:js && npm test"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.(js|jsx|ts|tsx)": "npm run lint:js",
+    "test/*.test.(js|ts)": "vitest run"
   },
   "config": {
     "commitizen": {
@@ -20,7 +24,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint:js": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "lint:js": "eslint . --ext *.(js|jsx|ts|tsx) --fix",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
@@ -39,6 +43,7 @@
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^1.1.4",
+    "lint-staged": "^13.0.3",
     "nuxt": "3.0.0-rc.11",
     "prettier": "^2.7.1",
     "prettier-eslint": "^15.0.1",
