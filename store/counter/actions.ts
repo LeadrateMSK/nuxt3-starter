@@ -1,7 +1,7 @@
-import { CounterState } from './state';
-
-export const actions = {
-    increment(this: CounterState) {
+const actions = ({
+    increment() {
         this.counter += 1;
     }
-};
+});
+
+export default actions;

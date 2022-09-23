@@ -1,7 +1,9 @@
 import { CounterState } from './state';
 
-export const getters = {
-    getCounter(state: CounterState) {
-        return state.counter;
+const getters = {
+    getCounter({ counter }: CounterState) {
+        return counter;
     }
 }
+
+export default getters;

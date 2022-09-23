@@ -1,0 +1,15 @@
+{
+    "extends": [
+        "plugin:nuxt/recommended",
+        "plugin:import/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:import/typescript",
+        "airbnb-base",
+        "airbnb-typescript/base",
+        "prettier"
+        // "prettier/@typescript"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    }
+}
