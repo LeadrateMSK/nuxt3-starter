@@ -2,7 +2,7 @@
   "private": true,
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './config/git/commitlint.js'",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './husky/git/commitlint.js'",
       "pre-commit": "lint-staged"
     }
   },
@@ -15,7 +15,7 @@
       "path": "node_modules/cz-customizable"
     },
     "cz-customizable": {
-      "config": "config/git/commitizen.js"
+      "config": "husky/git/commitizen.js"
     }
   },
   "scripts": {
