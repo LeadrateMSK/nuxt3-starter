@@ -1,4 +1,5 @@
 export interface Example {
     id: number,
-    name: string
+    name: string,
+    createdAt: string
 }
