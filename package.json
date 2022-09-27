@@ -1,14 +1,10 @@
 {
   "private": true,
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './.husky/git/commitlint.js'",
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "*.(js|jsx|ts|tsx)": "npm run lint:js",
-    "test/*.test.(js|ts)": "vitest run"
+    ".js,.jsx,.ts,.tsx": [
+      "npm run lint:js",
+      "vitest run"
+    ] 
   },
   "config": {
     "commitizen": {
@@ -24,7 +20,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint:js": "eslint . --ext .js,jsx,ts,tsx,vue --fix",
+    "lint:js": "eslint . --ext .js,jsx,ts,tsx --fix",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
