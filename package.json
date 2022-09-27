@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
-    "@nuxt/test-utils-edge": "^3.0.0-rc.12-27730995.2894a75",
+    "@nuxt/test-utils-edge": "^3.0.0-rc.12-27736489.2e080c2",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
     "cz-customizable": "^7.0.0",
