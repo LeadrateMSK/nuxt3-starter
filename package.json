@@ -2,7 +2,7 @@
   "private": true,
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './husky/git/commitlint.js'",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './.husky/git/commitlint.js'",
       "pre-commit": "lint-staged"
     }
   },
@@ -15,7 +15,7 @@
       "path": "node_modules/cz-customizable"
     },
     "cz-customizable": {
-      "config": "husky/git/commitizen.js"
+      "config": ".husky/git/commitizen.js"
     }
   },
   "scripts": {
@@ -24,7 +24,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint:js": "eslint . --ext *.(js|jsx|ts|tsx) --fix",
+    "lint:js": "eslint . --ext .js,jsx,ts,tsx,vue --fix",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
