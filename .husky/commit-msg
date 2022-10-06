@@ -2,4 +2,3 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx --no -- commitlint --edit $1 -g './.husky/git/commitlint.js'
-# npx commitlint --config "./git/commitlint.js" --edit

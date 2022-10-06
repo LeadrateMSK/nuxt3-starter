@@ -1,15 +1,37 @@
 {
-    "extends": [
-        "plugin:nuxt/recommended",
-        "plugin:import/recommended",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:import/typescript",
-        "airbnb-base",
-        "airbnb-typescript/base",
-        "prettier"
-        // "prettier/@typescript"
-    ],
-    "parserOptions": {
-        "project": "./tsconfig.json"
+  "extends": [
+    "plugin:import/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript",
+    "airbnb-base",
+    "airbnb-typescript/base",
+    "prettier",
+    "plugin:vue/vue3-recommended", // https://eslint.vuejs.org/rules/
+    "plugin:nuxt/recommended"
+  ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
     }
+  },
+  "parserOptions": {
+    "extraFileExtensions": [".vue"],
+    "parser": "@typescript-eslint/parser",
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/extensions": ["error", "ignorePackages", {
+      "": "never", // index files
+      "js": "never",
+      "jsx": "never",
+      "ts": "never",
+      "tsx": "never"
+    }],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "linebreak-style": ["error", "unix"],
+    "vue/multi-word-component-names": "off"
+  }
 }
