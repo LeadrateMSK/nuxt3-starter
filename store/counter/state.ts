@@ -1,7 +1,7 @@
 export interface CounterState {
-    counter: number
+  counter: number
 };
 
 export const state = (): CounterState => ({
-    counter: 0
+  counter: 0
 });
