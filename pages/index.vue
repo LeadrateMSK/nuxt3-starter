@@ -4,7 +4,7 @@ import ExampleComponent from '~~/components/ExampleComponent.vue';
 
 <template>
   <NuxtLayout>
-    Index Page
+    <span class="text-3xl text-purple-700">Index Page</span>
 
     <ExampleComponent />
   </NuxtLayout>
