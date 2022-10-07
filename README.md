@@ -9,6 +9,7 @@
 - :white_check_mark: ESlint & prettier
 - :white_check_mark: Vitest
 - :white_check_mark: Husky + LintStage + commitlint + commitizen
+- :white_check_mark: Tailwind CSS
 
 ## Запуск
 Установка зависимостей:
