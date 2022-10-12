@@ -22,7 +22,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@nuxt/test-utils-edge": "^3.0.0-rc.12-27730995.2894a75",
-    "@nuxtjs/tailwindcss": "^5.3.3",
+    "@nuxtjs/tailwindcss": "^5.3.5",
     "@pinia/nuxt": "^0.4.2",
     "@types/bcryptjs": "^2.4.2",
     "@types/cookie-signature": "^1.0.4",
@@ -51,7 +51,7 @@
     "@vitejs/plugin-vue": "^3.1.2",
     "bcryptjs": "^2.4.3",
     "cookie-signature": "^1.2.0",
-    "pinia": "^2.0.22",
+    "pinia": "^2.0.23",
     "tailwindcss": "^3.1.8",
     "vitest": "^0.24.0"
   }
