@@ -23,7 +23,7 @@
     "@commitlint/cli": "^17.1.2",
     "@nuxt/test-utils-edge": "^3.0.0-rc.12-27730995.2894a75",
     "@nuxtjs/tailwindcss": "^5.3.5",
-    "@pinia/nuxt": "^0.4.2",
+    "@pinia/nuxt": "^0.4.3",
     "@types/bcryptjs": "^2.4.2",
     "@types/cookie-signature": "^1.0.4",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
