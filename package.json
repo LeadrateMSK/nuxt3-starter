@@ -26,7 +26,7 @@
     "@pinia/nuxt": "^0.4.3",
     "@types/bcryptjs": "^2.4.2",
     "@types/cookie-signature": "^1.0.4",
-    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.38.0",
     "autoprefixer": "^10.4.12",
     "cz-customizable": "^7.0.0",
